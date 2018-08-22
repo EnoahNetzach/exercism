@@ -1,1 +1,7 @@
+# OCaml
 _build/
+
+# Haskell
+*.cabal
+.stack-work/
+
