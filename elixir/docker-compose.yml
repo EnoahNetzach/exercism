@@ -1,0 +1,10 @@
+version: "3.7"
+
+services:
+  test:
+    image: alpine
+    command: wget https://google.com
+
+networks:
+  default:
+    internal: true
